@@ -1,0 +1,12 @@
+.buttoncontent {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.notificationcontent {
+    position: absolute;
+    top: 52px;
+    right: 3px;
+    overflow-y: auto;
+    height: 500px;
+}
