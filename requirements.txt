@@ -1,0 +1,4 @@
+bottle~=0.12.19
+mock~=4.0.3
+pytest~=6.2.2
+WebTest~=2.0.35
