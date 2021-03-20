@@ -52,4 +52,4 @@ def getNotifications():
 
 
 if __name__ == "__main__":
-    run(notificationApp)
+    run(notificationApp, host="localhost", port="8080")

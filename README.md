@@ -2,11 +2,11 @@ ResiliaProject is a Bottle/JavaScript web app and REST API to view dummy data no
 
 In order to have everything working locally, you need the following processes: Install python requirements with pip install -r requirements.txt 
 
-Virtualenv -> source myenv/bin/activate
-Create database table ->
-Bottle server -> python manage.py runserver
-HTML server - > npm start
+1. Virtualenv -> source <virtualenv>/bin/activate
+   
+2. Create database table -> python notification_store.py
+   
+3. Bottle server -> python notification_server.py
+   
+4. HTML server - > google-chrome index.html
 
-Heroku local port: 5000 Django server port: 8000 React js port: 3000
-
-API: http://constitute.tech/tweets Homepage: http://constitute.tech/home
