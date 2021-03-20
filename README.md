@@ -4,9 +4,9 @@ In order to have everything working locally, you need the following processes: I
 
 1. Virtualenv -> source <virtualenv>/bin/activate
    
-2. Create database table -> python notification_store.py
+2. Create database table -> python src/notification_store.py
    
-3. Bottle server -> python notification_server.py
+3. Bottle server -> python src/notification_server.py
    
-4. HTML server - > google-chrome index.html
+4. HTML server - > open src/frontend/html/index.html
 
